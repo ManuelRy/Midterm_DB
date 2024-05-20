@@ -57,7 +57,7 @@
                                                         <td>{{ $block->id }}</td>
                                                         <td>{{ $block->hash }}</td>
                                                         <td>{{ $block->preHash }}</td>
-                                                        <td>{{ $block->created_at }}</td>
+                                                        <td>{{ $block->timestamp }}</td>
                                                         <td>{{ $block->nonce }}</td>
                                                         <td>{{ $trans->where('block_id', $block->id)->count() }}</td>
                                                         <td>
